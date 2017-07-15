@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: AutoTest.Cucumber_Test.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 17.724 sec <<< FAILURE! - in AutoTest.Cucumber_Test.RunnerClass
+Given am on the "Landing" page(| wegit | 12345678 |)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<L[ogin]> but was:<L[anding]>
+
+| wegit | 12345678 |  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<L[ogin]> but was:<L[anding]>
+

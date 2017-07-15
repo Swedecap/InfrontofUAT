@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login and Logout",
+        "description": "",
+        "id": "as-a-user,;login-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13711998707,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "am on the Landing Page",
+            "match": {
+              "location": "ist_login_test.am_on_the_Landing_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114927838,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my Username as wegit",
+            "match": {
+              "location": "ist_login_test.i_enter_my_Username_as_wegit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80065210,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my Password as 123455678",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123455678",
+                  "offset": 23
+                }
+              ],
+              "location": "ist_login_test.i_enter_my_Password_as(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1725228573,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Login button",
+            "match": {
+              "location": "ist_login_test.i_click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24848,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "am on the Home Page",
+            "match": {
+              "location": "ist_login_test.am_on_the_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@demo2"
+          }
+        ]
+      }
+    ],
+    "name": "As a user,",
+    "description": "I want to be able to login and logout",
+    "id": "as-a-user,",
+    "keyword": "Feature",
+    "uri": "Ist_login_test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@duper"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Ben_Bolaji"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login and logout",
+        "description": "",
+        "id": "as-an-user,-i-want-to-be-able-to-login-and-logout.;login-and-logout;login-details;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 612839538,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cL[ogin]\u003e but was:\u003cL[anding]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat AutoTest.Cucumber_Test.SecondLoginTest.am_on_the_page(SecondLoginTest.java:25)\r\n\tat ✽.Given am on the \"Landing\" page(SecondLoginTest.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "am on the \"Landing\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Landing",
+                  "offset": 11
+                }
+              ],
+              "location": "SecondLoginTest.am_on_the_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter my \"Username\" as \"wegit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username",
+                  "offset": 12
+                },
+                {
+                  "val": "wegit",
+                  "offset": 26
+                }
+              ],
+              "location": "SecondLoginTest.i_enter_my_as(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter my \"Password\" as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 12
+                },
+                {
+                  "val": "12345678",
+                  "offset": 26
+                }
+              ],
+              "location": "SecondLoginTest.i_enter_my_as(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 9
+                }
+              ],
+              "location": "SecondLoginTest.i_click_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "am on the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 11
+                }
+              ],
+              "location": "SecondLoginTest.am_on_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@duper"
+          },
+          {
+            "line": 5,
+            "name": "@demo2"
+          }
+        ]
+      }
+    ],
+    "name": "As an user, i want to be able to login and logout.",
+    "description": "",
+    "id": "as-an-user,-i-want-to-be-able-to-login-and-logout.",
+    "keyword": "Feature",
+    "uri": "SecondLoginTest.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@duper"
+      }
+    ]
+  }
+]
